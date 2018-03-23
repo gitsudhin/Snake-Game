@@ -11,4 +11,20 @@ public class GameObject {
   public void setSymbol(char symbol) {
     this.symbol = symbol;
   }
+
+  public void setxPos(int xPos) {
+    this.xPos = xPos;
+  }
+
+  public void setyPos(int yPos) {
+    this.yPos = yPos;
+  }
+
+  public int getxPos() {
+    return this.xPos;
+  }
+
+  public int getyPos() {
+    return this.yPos;
+  }
 }
