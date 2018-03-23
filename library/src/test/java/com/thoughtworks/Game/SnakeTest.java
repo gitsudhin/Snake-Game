@@ -32,4 +32,12 @@ public class SnakeTest {
         assertThat(snake.getxPos(),is(3));
         assertThat(snake.getyPos(),is(2));
     }
+    @Test
+    public void snakeShouldMoveUp() {
+        assertThat(snake.getxPos(),is(2));
+        assertThat(snake.getyPos(),is(2));
+        snake.moveUp(new GameScreen(10,10),snake);
+        assertThat(snake.getxPos(),is(2));
+        assertThat(snake.getyPos(),is(1));
+    }
 }
