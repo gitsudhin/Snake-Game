@@ -14,4 +14,10 @@ public class Wall extends GameObject {
       gameScreen.setObjectOnLocation(wall,i,rowNum);
     }
   }
+
+  public void drawVerticalBoundary(GameScreen gameScreen, Wall wall, int columnNum) {
+    for (int i = 0; i < gameScreen.getScreenHeight(); i++) {
+      gameScreen.setObjectOnLocation(wall, columnNum, i);
+    }
+  }
 }
