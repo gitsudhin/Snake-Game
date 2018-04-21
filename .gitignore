@@ -1,7 +1,6 @@
 build/
 .settings/
 .vscode/
-gradle/
 gradlew.bat
 .gradle/
 .project
